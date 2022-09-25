@@ -5,5 +5,3 @@ def delete_at(my_list=[], idx=0):
     else:
         del my_list[idx]
         return my_list
-j = delete_at([23,4,5,6,6], idx=2)
-print(j)
