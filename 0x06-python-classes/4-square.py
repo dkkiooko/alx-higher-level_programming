@@ -42,4 +42,4 @@ class Square:
         Returns:
             int: square of Square object
         """
-        return self.__size**2
+        return self.size**2
