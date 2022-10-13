@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 class Square:
-    '''
-    class that defines a Square
-
-    '''
+    """class is used to define a Square
+    """
     pass
