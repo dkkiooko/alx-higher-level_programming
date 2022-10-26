@@ -27,6 +27,7 @@ Checking that MyList inherits from list:
     True
 
 Checking that appending works:
+    >>> l = MyList()
     >>> l.append(1)
     >>> l.append(2)
     >>> l.append(3)
@@ -64,9 +65,3 @@ Checking for all negative numbers:
     [-10, -8, -7, -2, -1]
     >>> print(l)
     [-10, -1, -7, -2, -8]
-
-Checking for too many arguments:
-    >>> l.print_sorted(1)
-    Traceback (most recent call last)
-    ...
-    TypeError: print_sorted() takes 1 positional argument but 2 were given
