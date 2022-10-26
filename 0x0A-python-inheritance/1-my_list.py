@@ -8,9 +8,6 @@ class MyList(list):
     Args:
         list (object): inbuilt Python list module
     """
-    def __init__(self):
-        super().__init__()
-
     def print_sorted(self):
         """prints MyList obj ascending
         """
