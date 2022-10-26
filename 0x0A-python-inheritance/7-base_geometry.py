@@ -11,7 +11,7 @@ class BaseGeometry:
         Raises:
             Exception: this function is undefined
         """
-        raise Exception("area() not implemented")
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """ensures value is an integer
