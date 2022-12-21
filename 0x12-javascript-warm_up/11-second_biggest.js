@@ -1,9 +1,10 @@
 #!/usr/bin/node
 // searches biggest integer in list
 
-if (process.argv.length <= 3) {
-  console.log(0);
-} else {
-  const list = process.argv.sort();
-  console.log(list.reverse()[1]);
-}
+const args = process.argv
+  .slice(2)
+  .map(arg => Number.parseInt(arg))
+  .sort((a, b) => b - a);
+const val = args.length < 2 ? 0 : args[1];
+
+console.log(val);
