@@ -30,7 +30,8 @@ class Rectangle {
 
   // method that doubles the dimensions of the rectangle
   double () {
-    this.width = this;
+    this.width *= 2;
+    this.height *= 2;
   }
 }
 module.exports = Rectangle;
