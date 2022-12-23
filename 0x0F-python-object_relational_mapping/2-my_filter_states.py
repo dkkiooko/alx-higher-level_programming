@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-# list all values in `states` table where `name` matches
+"""#" list all values in `states` table where `name` matches
 # the third argument
 # Usage: ./2-my_filter_states.py <mysql username> \
 #                                <mysql password> \
 #                                <database name> \
 #                                <state_name_to_search>
-
+"""
 import sys
 import MySQLdb
 

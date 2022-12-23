@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-# list all cities in database, order by id
+"""" list all cities in database, order by id
 # Usage: ./4-cities_by_state.py <mysql username> \
 #                               <mysql password> \
-#                               <database name>
+#                               <database name> """
 import sys
 import MySQLdb
 

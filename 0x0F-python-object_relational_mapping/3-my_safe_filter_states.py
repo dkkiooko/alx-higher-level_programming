@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# similar to 2-my_filter_states only now we prevent SQL injection
-# usage is similar to 2-my_filter_states
+""" similar to 2-my_filter_states only now we prevent SQL injection
+# usage is similar to 2-my_filter_states """
 import sys
 import MySQLdb
 

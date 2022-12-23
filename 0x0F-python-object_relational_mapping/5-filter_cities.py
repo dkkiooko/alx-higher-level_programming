@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# displays all cities of a state from database
+""" displays all cities of a state from database
 # safe from SQL injection
 # Usage: ./5-filter_cities.py <mysql username> \
 #                             <mysql password> \
 #                             <database name> \
-#                             <state_name_to_search>
+#                             <state_name_to_search>"""
 import sys
 import MySQLdb
 
