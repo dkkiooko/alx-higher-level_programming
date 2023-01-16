@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """ find peak in a list of unsorted integers """
 
+
 def find_peak(list_of_integers):
     """ finds the highest in a list of integers """
-    if len(list_of_integers) == 0:
-        return
-    else:
-        return list_of_integers.sort()[0]
+    max_i = None
+    for ele in list_of_integers:
+        if max_i is None or max_i < ele:
+            max_i = ele
+    return max_i
